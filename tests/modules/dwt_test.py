@@ -41,4 +41,12 @@ class CompressionTest(unittest.TestCase):
         'TODO'
         img = load_img(os.path.join(FOLDER, FILENAME))
         coeff = extract_rgb_coeff(img)
-        return
+        pass
+
+    # Demo function
+    def sum(self, a, b):
+        return a + b
+
+    def test_demo(self):
+        self.assertEqual(self.sum(1,1), 2)
+        self.assertEqual(self.sum(1,2), 3)
