@@ -1,6 +1,8 @@
 # jp2-python
 JPEG2000/JP2 Image Compression Codec using Python,NumPy,PyDWT
 
+[![CircleCI](https://circleci.com/gh/dbrrt/jp2-python.svg?style=svg)](https://circleci.com/gh/dbrrt/jp2-python)
+
 # Requirements
 - Python 3+
 - Pillow
